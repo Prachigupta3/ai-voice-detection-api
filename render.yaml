@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-voice-detection-api
+    env: docker
+    plan: free
+    autoDeploy: true
