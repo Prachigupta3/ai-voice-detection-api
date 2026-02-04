@@ -7,8 +7,7 @@ import librosa
 
 app = Flask(__name__)
 
-API_KEY = os.environ.get("API_KEY", "sk_test_123456789")
-
+API_KEY = "sk_test_123456789"
 SUPPORTED_LANGUAGES = ["en", "hi"]
 
 
